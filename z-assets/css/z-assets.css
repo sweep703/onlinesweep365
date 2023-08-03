@@ -738,6 +738,14 @@ a{
     background-repeat: no-repeat;
   }
 } */
+.m-only{
+  display: none;
+}
+@media (max-width: 992px) {
+  .m-only{
+    display: block;
+  }
+}
 
 
 
