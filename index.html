@@ -297,6 +297,50 @@
   </div>
 
   </div>
+
+  <div class="rules py-5" style="background-color: #A4DDED;">
+    <h1 class="text-center">Our Rules</h1>
+    <div class="wrapper" style="background-color: #A4DDED;">
+      <div class="item">
+        <h5>
+
+          First Time Deposit 50% Sign-Up Bonus.
+        </h5>
+        <div class="close"></div>
+      </div>
+
+      <div class="item">
+        <h5>10% Daily Bonus.</h5>
+        <div class="close"></div>
+      </div>
+
+      <div class="item">
+        <h5>Minimum Deposit $10.</h5>
+        <div class="close"></div>
+      </div>
+
+      <div class="item last">
+        <h5>Minimum Cashout $70.</h5>
+        <div class="close"></div>
+      </div>
+      <div class="item last">
+        <h5>Maximum Cashout $1000.</h5>
+        <div class="close"></div>
+      </div>
+      <div class="item last">
+        <h5>Maximum Cashout Per 24hrs $500 Each Platform.</h5>
+        <div class="close"></div>
+      </div>
+      <div class="item last">
+        <h5>Deposit Above $21 and up will Get Max Cashout Of $500 And Below $20 Will Get 10X Of Its Deposit</h5>
+        <div class="close"></div>
+      </div>
+      <div class="item last">
+        <h5>Below $20 Have Max Cashout Limit Of 10X Times The Deposit Amount Rest Will Be Voided</h5>
+        <div class="close"></div>
+      </div>
+    </div>
+  </div>
   <!-- // end .section -->
   <section id="about" style="background-color: rgb(171, 151, 180);">
     <div class="container-fluid">
@@ -373,7 +417,22 @@
   <script src="z-assets/js/owl.carousel.min.js"></script>
   <!-- Custom JS -->
   <script src="z-assets/js/script.js"></script>
+  <script>
+    $('.item').click(function () {
+      $('.wrapper').addClass('active');
+      $('.item').removeClass('active').removeClass('margin');
+      $('.close').fadeOut(300);
+      $(this).addClass('active').addClass('margin');
+      $('.close', this).delay(700).fadeIn(300);
+    });
 
+    $('.close').click(function (event) {
+      event.stopPropagation();
+      $('.wrapper').removeClass('active');
+      $('.item').removeClass('active').removeClass('margin');
+      $('.close').fadeOut(300);
+    });
+  </script>
 
 
 
