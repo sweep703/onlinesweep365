@@ -154,7 +154,9 @@ p.lead {
 .nav-menu {
   padding: 1rem 0;
   transition: all 0.3s ease;
-  background-color: #FE308B;
+  background-color: #c175ff
+
+  ;
 }
 
 .nav-menu.is-scrolling,
@@ -717,12 +719,13 @@ a{
 .m-hide{
   display:block;
 }
-.hero { 
+/* .hero { 
   background-image: url('/images/wl.png');
   object-fit: cover;
   background-repeat: no-repeat;
-}
-@media (max-width: 992px) {
+} */
+
+/* @media (max-width: 992px) {
   .hide{
     display: block;
   }
@@ -734,7 +737,7 @@ a{
     object-fit: cover;
     background-repeat: no-repeat;
   }
-}
+} */
 
 
 
