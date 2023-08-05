@@ -84,7 +84,7 @@
 
 
 
-  <div class="video-container wining-up" style="display: none;">
+  <div class="video-container wining-up">
     <video class="background-video" autoplay loop muted playsinline>
       <source src="/images/firework.mp4" type="video/mp4">
       <!-- Fallback image in case the video doesn't load or isn't supported -->
@@ -250,36 +250,7 @@
     </div>
 
 
-  <div class="video-container wining-down">
-    <video class="background-video" autoplay loop muted playsinline>
-      <source src="/images/firework.mp4" type="video/mp4">
-      <!-- Fallback image in case the video doesn't load or isn't supported -->
-      <img src="/images/firework.jpg" alt="Firework Background">
-    </video>
-    <header>
-      <div class="section" id="winnings">
-        <div class="container">
-          <div class="section-title">
-            <h3>Winnings</h3>
-            <h3>Victory and loot!</h3>
-          </div>
 
-          <div class="img-gallery owl-carousel owl-theme">
-            <img src="images/100.jpeg">
-            <img src="images/150.jpeg" alt="">
-            <img src="images/200.jpeg" alt="">
-            <img src="images/400.jpeg" alt="">
-            <img src="images/90.jpeg" alt="">
-            <img src="images/100.jpeg">
-            <img src="images/150.jpeg" alt="">
-            <img src="images/200.jpeg" alt="">
-            <img src="images/400.jpeg" alt="">
-            <img src="images/90.jpeg" alt="">
-          </div>
-        </div>
-      </div>
-    </header>
-  </div>
 
   <!-- our services -->
 
@@ -332,6 +303,10 @@
       </div>
     </div>
   </div>
+
+
+
+  
   <!-- // end .section -->
   <section id="about" style="background-color: rgb(212, 153, 239);">
     <div class="container-fluid">
@@ -397,10 +372,10 @@
   <!-- jQuery and Bootstrap -->
   <script src="z-assets/js/jquery-3.2.1.min.js"></script>
   <script>
-    setTimeout(() => {
-      $('.wining-down').hide();
-      $('.wining-up').show();
-    }, 10000);
+    // setTimeout(() => {
+    //   $('.wining-down').hide();
+    //   $('.wining-up').show();
+    // }, );
   </script>
 
   <script src="z-assets/js/bootstrap.bundle.min.js"></script>
