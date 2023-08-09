@@ -70,7 +70,7 @@
     </div>
   </div>
 
-  <video style="height: 100%;width: 100%;margin-top:77px;" autoplay="autoplay" muted loop="" class="slider_video" id="slider_video">
+  <video style="height: 100%;width: 100%;margin-top:77px;" muted autoplay="autoplay" loop="" class="slider_video" id="slider_video">
     <source src="/images/slidervideo.mp4" type="video/mp4">
   </video>
   <button style="display: none;" id="for_videoplay">Play Video</button>
@@ -365,11 +365,10 @@
   <script src="z-assets/js/script.js"></script>
   <script>
      $(document).ready(function() {
-       $('#for_videoplay').click(function() {
+        setTimeout(() => {
             var video = $('#slider_video')[0];
             video.muted = !video.muted;
-        });
-       $('#for_videoplay').trigger('click');
+          }, 100);
     });
     $('.item').click(function () {
       $('.wrapper').addClass('active');
