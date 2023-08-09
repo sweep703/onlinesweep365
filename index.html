@@ -70,9 +70,9 @@
     </div>
   </div>
 
-  <video style="height: 100%;width: 100%;margin-top:77px;" muted autoplay="autoplay" loop="" class="slider_video" id="slider_video">
+  <video style="height: 100%;width: 100%;margin-top:77px;" muted autoplay loop class="slider_video" id="slider_video">
     <source src="/images/slidervideo.mp4" type="video/mp4">
-  </video>
+</video>
   <button style="display: none;" id="for_videoplay">Play Video</button>
   <div style="margin-top:-6px;" class="video-container">
     <video class="background-video" autoplay loop muted playsinline>
@@ -364,12 +364,11 @@
   <!-- Custom JS -->
   <script src="z-assets/js/script.js"></script>
   <script>
-     $(document).ready(function() {
-        setTimeout(() => {
-            var video = $('#slider_video')[0];
-            video.muted = !video.muted;
-          }, 2000);
-    });
+    setTimeout(() => {
+        var video = document.getElementById('slider_video');
+        video.muted = false;
+        video.play();
+    }, 2000);
     $('.item').click(function () {
       $('.wrapper').addClass('active');
       $('.item').removeClass('active').removeClass('margin');
