@@ -719,25 +719,25 @@ a{
 .m-hide{
   display:block;
 }
-/* .hero { 
+.hero { 
   background-image: url('/images/wl.png');
   object-fit: cover;
   background-repeat: no-repeat;
-} */
+}
 
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
   .hide{
     display: block;
   }
-  .m-hide{
+  /* .m-hide{
     display: none;
-  }
+  } */
   .hero { 
     background-image: url('/images/wp.png');
     object-fit: cover;
     background-repeat: no-repeat;
   }
-} */
+}
 .m-only{
   display: none;
 }
