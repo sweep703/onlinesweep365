@@ -154,14 +154,11 @@ p.lead {
 .nav-menu {
   padding: 1rem 0;
   transition: all 0.3s ease;
-  background-color: #070228
-
-  ;
+  background-color: #070228;
 }
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-
 }
 
 .nav-menu.is-scrolling {
@@ -195,6 +192,13 @@ p.lead {
   }
   .navbar-nav .nav-item {
     text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  .navbar-nav .nav-item:last-child {
+    border-bottom: none;
   }
 }
 
@@ -202,7 +206,7 @@ p.lead {
 ----------------------*/
 
 header {
-  padding:88px 0 0;
+  padding: 88px 0 0;
   text-align: center;
   color: #fff;
 }
@@ -562,7 +566,6 @@ header {
   vertical-align: text-bottom;
 }
 
-
 .social-icons {
   text-align: right;
 }
@@ -595,7 +598,7 @@ header {
 
 /* footer */
 footer {
-  background-color: #4B006E;
+  background-color: #4b006e;
 }
 
 footer p {
@@ -638,12 +641,12 @@ footer p a:hover {
   justify-content: center;
   margin-top: 1.5rem;
 }
-.down-content .btn{
+.down-content .btn {
   font-weight: 500;
   letter-spacing: 2px;
-  background-image: linear-gradient(180deg, #f3ec78, #aa5a70 );
+  background-image: linear-gradient(180deg, #f3ec78, #aa5a70);
   color: white !important;
-  padding:5px 15px;
+  padding: 5px 15px;
 }
 
 a:hover {
@@ -661,12 +664,12 @@ section {
   background: white;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 0.5rem;
-  box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+  box-shadow: 7px 7px 30px -5px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
 
 .wrap:hover {
-  background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+  background: linear-gradient(135deg, #6394ff 0%, #0a193b 100%);
   color: white;
 }
 
@@ -692,7 +695,7 @@ h3 {
   margin-bottom: 0.5rem;
 }
 .display-5 {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 30px !important;
 }
 .mbr-bold {
@@ -705,49 +708,60 @@ p {
   line-height: 25px;
 }
 
-.platform{
-  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-
+.platform {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
 }
-a{
+a {
   text-decoration: none !important;
 }
 
-.hide{
-  display:none;
+.hide {
+  display: none;
 }
-.m-hide{
-  display:block;
+.m-hide {
+  display: block;
 }
-.hero { 
-  background-image: url('/images/wl.png');
+.hero {
+  background-image: url("/images/wl.png");
   object-fit: cover;
   background-repeat: no-repeat;
 }
 
 @media (max-width: 992px) {
-  .hide{
+  .hide {
     display: block;
   }
   /* .m-hide{
     display: none;
   } */
-  .hero { 
-    background-image: url('/images/wp.png');
+  .hero {
+    background-image: url("/images/wp.png");
     object-fit: cover;
     background-repeat: no-repeat;
   }
 }
-.m-only{
+.m-only {
   display: none;
 }
 @media (max-width: 992px) {
-  .m-only{
+  .m-only {
     display: block;
   }
 }
-
-
 
 #myVideo {
   position: relative;
@@ -756,7 +770,6 @@ a{
   min-width: 100%;
   min-height: 100%;
 }
-
 
 header {
   /* height: 100px; */
@@ -785,9 +798,6 @@ header {
   z-index: -1;
   filter: brightness(30%);
 }
-
-
-
 
 /* our rules */
 
@@ -919,7 +929,7 @@ header {
 }
 
 /* our hottest platform */
-.header{
+.header {
   background-color: gold;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -930,32 +940,31 @@ header {
   font-size: 25px;
 }
 
-article{
+article {
   display: inline-block;
 }
 
-body{
+body {
   background-color: black;
 }
-h2{
-  font-family: Arial,sans-serif;
+h2 {
+  font-family: Arial, sans-serif;
   text-align: left;
-  margin-left:2%;
-  margin-right:2%;
+  margin-left: 2%;
+  margin-right: 2%;
   font-size: 30px;
   color: white;
 }
-.car{
+.car {
   margin-top: -30px;
   margin-left: 2%;
   margin-right: 2%;
 }
-hr{
+hr {
   margin-top: -50px;
-  margin-left:2%;
-  margin-right:2%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-.image{
+.image {
   padding: 10px;
 }
-
