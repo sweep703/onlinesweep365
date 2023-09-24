@@ -1106,6 +1106,8 @@ hr {
 .testim .cont div h2 {
   color: black;
   margin: 15px 0;
+  text-align: center;
+  
 }
 
 .testim .cont div p {
